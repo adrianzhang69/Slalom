@@ -97,11 +97,7 @@ function draw() {
   // add postion to array each movement
   path.push([x, y, x + 6, y]);
   // loop using to draw path of skier
-  for (let i = 0; i < path.length - 1; i++) {
-    let gap = 4;
-    line(path[i][0], path[i][1], path[i + 1][0], path[i + 1][1], );
-    line(path[i][2], path[i][3], path[i + 1][2], path[i + 1][3], );
-  }
+ 
   // draw trees
   for (let i = 0; i < trees.length; i++) {
     let treeX = trees[i][0];
